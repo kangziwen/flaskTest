@@ -1,0 +1,7 @@
+.ven/bin/activate
+pip freeze > requirements.txt
+安装
+pip install -r requirements.txt
+
+Flask-Script==2.0.5
+liverload==2.3.2

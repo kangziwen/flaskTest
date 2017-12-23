@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='zhu.css') }}" type="text/css"/>
+</head>
+<body>
+<div>
+    {{ canshu }}
+    <div>
+        <a href="{{ url_for('.index1') }}">index1</a>
+        <a href="{{ url_for('.index2') }}">index2</a>
+    </div>
+</div>
+</body>
+</html>
